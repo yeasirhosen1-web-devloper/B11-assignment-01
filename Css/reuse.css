@@ -114,5 +114,22 @@
   font-style: italic;
 }
 
+/* btn */
+.btn-primary{
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    height: 56px;
+    width: 270px;
+    color: white;
+    font-size: 18px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.dark-2{
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 24px;
+
+}
 
 
