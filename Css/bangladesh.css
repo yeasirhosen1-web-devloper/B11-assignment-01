@@ -1,0 +1,21 @@
+/* nav css */
+.nav-btn{
+    border: 1px solid #006A50;
+    width: 116px;
+    height: 52px;
+    cursor:pointer;
+    border-radius: 8px;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-title {
+    font-size: 32px;
+}
+.navbar-section{
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
