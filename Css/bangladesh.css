@@ -66,3 +66,44 @@
     font-size: 56px;
 
 }
+/* pirllar Section */
+.pillar-section{
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+.section-title{
+    font-size: 25px;
+    margin-bottom: 24px;
+}
+.pillar-card{
+    width: 322px;
+    height: 244px;
+    background-color: white;
+    border-radius: 16px; 
+    padding: 20px 10px ; 
+    border: 1px solid rgb(212, 210, 210);  
+    cursor:progress;     
+}
+.pillar-card img{
+    margin-left: 18px;
+    margin-bottom: 12px;
+}
+.pillar-card h4{
+    margin-left: 18px;
+}
+.sub-title{
+    font-size: 20px;
+}
+.pillar-card p{
+    margin-left: 18px;
+    margin-top: 12px;
+}
+
+
+.pillar-cards{
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+}
