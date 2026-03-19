@@ -74,7 +74,7 @@
 
 }
 .section-title{
-    font-size: 25px;
+    font-size: 40px;
     margin-bottom: 24px;
 }
 .pillar-card{
@@ -106,4 +106,110 @@
     display: flex;
     gap: 24px;
     margin: 0 auto;
+}
+/* vison-of-futute */
+.vison-of-futute{
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+/* visson-cards */
+.visson-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+/* vison-card section */
+.vison-card-1{
+     background-color: rgba(84, 144, 245, 0.2);   
+     border-radius: 16px;        
+     max-width: 400px;          
+     width: 100%;
+     padding: 32px;             
+     transition: transform 0.3s ease;
+
+}
+ 
+.vison-card-1 img{
+    margin-bottom: 24px;
+}
+.vison-card-1 h4{
+      margin-bottom: 24px; 
+      font-size: 20px;
+}
+.vison-card-btn-1{
+    color: white;
+    width: 122px;
+    height: 41px;
+    background-color: rgba(84, 144, 245, 1);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.vison-card-2{
+     background-color: rgba(198, 228, 214, 1);   
+     border-radius: 16px;        
+     max-width: 400px;          
+     width: 100%;
+     padding: 32px;             
+     transition: transform 0.3s ease;
+
+}
+ 
+.vison-card-2 img{
+    margin-bottom: 24px;
+}
+.vison-card-2 h4{
+      margin-bottom: 24px; 
+}
+
+.vison-card-btn-2{
+    color: white;
+    width: 122px;
+    height: 41px;
+    background-color: rgba(9, 161, 92, 1);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+}
+
+.vison-card-3{
+     background-color: rgba(247, 235, 207, 1);   
+     border-radius: 16px;        
+     max-width: 400px;          
+     width: 100%;
+     padding: 32px;             
+     transition: transform 0.3s ease;
+    
+
+}
+ 
+.vison-card-3 img{
+    margin-bottom: 24px;
+}
+.vison-card-3 h4{
+      margin-bottom: 24px; 
+}
+
+.vison-card-btn-3{
+    color: white;
+    width: 122px;
+    height: 41px;
+    background-color: rgba(255, 194, 57, 1);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -15px;
 }
