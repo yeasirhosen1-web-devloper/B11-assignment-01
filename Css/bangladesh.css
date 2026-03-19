@@ -240,3 +240,90 @@
      margin-left: 30px;
 }
 
+
+.YourOpinionMatter{
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 82px;
+  
+}
+ .content-2{
+    width: 1270px;
+    height: 350px;
+    background-color: white;
+    border-radius: 16px; 
+    padding: 20px 10px ; 
+    border: 1px solid rgb(212, 210, 210);  
+    cursor:progress; 
+    margin: 0 auto;
+    margin-top: 32px
+}
+table,th, td{
+   padding: 18px 20px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  height: 50px;
+}
+ 
+
+.heading{
+  background-color: rgba(198, 228, 214, 1);
+  justify-content: flex-end;
+  height: 72px;
+ 
+}
+
+table{
+   width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+ 
+ 
+
+
+thead tr {
+  background-color: #c6e4d6;
+}
+
+thead th {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+thead th:last-child {
+  text-align: right;
+}
+
+/* Body rows */
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody td {
+  font-size: 14px;
+  color: #333;
+}
+
+tbody td:last-child {
+  text-align: right;
+}
+
+/* Dropdown button style */
+.opinion-select {
+  padding: 8px 14px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  appearance: auto;
+  min-width: 130px;
+}
+
+.opinion-select:focus {
+  outline: 2px solid #4a90d9;
+}
