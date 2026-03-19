@@ -213,3 +213,30 @@
     padding-right: 20px;
     margin-top: -15px;
 }
+/* Dr Younis Section */
+.content{
+   
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top; /* or center */
+               /* adjust as needed */
+    background-position: 15px 25px; 
+ 
+    width: 1270px;
+    height: 256px;
+    background-color: white;
+    border-radius: 16px; 
+    padding: 20px 10px ; 
+    border: 1px solid rgb(212, 210, 210);  
+    cursor:progress; 
+    margin: 0 auto;
+    margin-top: 32px
+}
+.content p{
+    padding: 24px;
+    cursor: rgba(14, 14, 14, 0.8);
+}
+.content h4{
+     margin-left: 30px;
+}
+
