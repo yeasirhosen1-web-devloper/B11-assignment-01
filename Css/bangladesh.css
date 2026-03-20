@@ -218,8 +218,8 @@
    
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
-    background-position: left top; /* or center */
-               /* adjust as needed */
+    background-position: left top;  
+                
     background-position: 15px 25px; 
  
     width: 1270px;
@@ -406,8 +406,8 @@ font-size: 18px;
   margin: 0;  
 }
 .donate-cards {
-  width: 100%;           /* ✅ ঠিক করা */
-  max-width: 1071px;     /* ✅ যোগ করা */
+  width: 100%;            
+  max-width: 1071px;      
   display: flex;
   justify-content: space-between;
   gap: 24px;
@@ -467,8 +467,8 @@ font-size: 18px;
 }
 .Subscribe-Newsletter-section{
   background-color: rgba(198, 228, 214, 1);
-  width: 100%;           /* ✅ fixed */
-  max-width: 1230px;     /* ✅ fixed */
+  width: 100%;             
+  max-width: 1220px;      
   margin: 80px auto 0;
   padding: 40px;
   border-radius: 8px;
@@ -484,26 +484,52 @@ font-size: 18px;
    width:600px;
    height: 55px;
   border: 1px solid #fffdfd;
-  border-radius: 4px 0 0 4px;   
+  border-radius: 8px 0 0 8px;   
   outline: none;
   font-size: 14px;
 
 }
 .suscribe-btn {
   width: 150px;
-height: 57px;
+  height: 57px;
   padding: 12px 24px;
   background-color: #0f6e56;
   color: white;
   border: none;
-  border-radius: 0 4px 4px 0;   
+  border-radius: 0 8px 8px 0;   
   cursor: pointer;
   font-size: 14px;
   margin-top: -24px;
  
  
- 
-   
 }
+    /* footer */
+/*  */
+
+footer{
+    width: 100%;
+    max-width: 1280px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 82px;
+    padding: 40px 0;
+}
+.fotter-title{
+    margin-bottom:40px;
+     
+}
+hr{
+   max-width: 1000px; 
+   margin-top: 50px; 
+    margin: 0 auto;
+}
+.social-icon{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px; 
+margin: 0 auto;
 
 
+}
