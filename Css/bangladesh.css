@@ -376,3 +376,134 @@ color: white;
 font-size: 18px;
 
 }
+
+/* donate-section */
+.donate-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.Donate_Today-section {
+  margin-top: 30px;
+}
+.donate-card {
+  width: 240px;
+  height: 80px;
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid rgb(212, 210, 210);
+  cursor: pointer;
+  margin-top: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donate-card h3 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;  
+}
+.donate-cards {
+  width: 100%;           /* ✅ ঠিক করা */
+  max-width: 1071px;     /* ✅ যোগ করা */
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.donate-card {
+  width: 240px;
+  height: 80px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px 10px;
+  border: 1px solid rgb(212, 210, 210);
+  cursor: pointer;
+
+}
+
+.donate-card:hover {
+  background-color: rgba(198, 228, 214, 1);
+  transition: 0.3s;
+}
+
+.donate-card h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0;        
+}
+
+.donate-container {
+  display: flex;         
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.amount-input {
+  width: 100%;         
+  max-width: 1032px;
+  height: 64px;
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid rgb(212, 210, 210);
+  margin: 0 auto;        
+}
+
+.donet-btn {
+  width: 151px;
+  height: 56px;
+  background-color: rgba(0, 106, 80, 1);
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  margin: 0 auto;
+}
+.Subscribe-Newsletter-section{
+  background-color: rgba(198, 228, 214, 1);
+  width: 100%;           /* ✅ fixed */
+  max-width: 1230px;     /* ✅ fixed */
+  margin: 80px auto 0;
+  padding: 40px;
+  border-radius: 8px;
+}
+.suscribe{
+  display: flex;            
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+ 
+}
+.suscribe-box{
+   width:600px;
+   height: 55px;
+  border: 1px solid #fffdfd;
+  border-radius: 4px 0 0 4px;   
+  outline: none;
+  font-size: 14px;
+
+}
+.suscribe-btn {
+  width: 150px;
+height: 57px;
+  padding: 12px 24px;
+  background-color: #0f6e56;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;   
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: -24px;
+ 
+ 
+ 
+   
+}
+
+
